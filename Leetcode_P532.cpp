@@ -33,7 +33,7 @@ int main(){
 
     vector<int>nums;
     for(int i=0; i<nums.size(); i++){
-        nums.push_back(nums[i]);
+        nums.push_back(nums[i]); // sss
     }
     int k;
     cin>>k;
