@@ -1,0 +1,29 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+
+class Solution {
+public:
+    vector<int> findClosestElements(vector<int>& arr, int k, int x) {
+
+        int l = 0, h = arr.size()-1;
+
+        while(h-l>=k){
+
+            
+                if(arr[h]-x < x-arr[l]){
+                    l++;
+                }
+                else
+                    h--;
+            
+
+        }
+        vector<int>ans;
+        for(int i=l; i<=h; i++){
+            ans.push_back(arr[i]);
+        }
+        return ans;
+
+    }
+};
