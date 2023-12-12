@@ -1,4 +1,4 @@
-// Reverse a character string
+//Reverse a character string
 #include <iostream>
 #include <string.h>
 using namespace std;
