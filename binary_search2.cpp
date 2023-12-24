@@ -14,7 +14,7 @@ int main(){
         cout<<"Found"<<endl;
     }
     else{
-        cout<<"Not Found"<<endl;
+        cout<<"Not Found"<<endl; 
     }
     return 0;
 }

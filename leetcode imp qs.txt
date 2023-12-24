@@ -1,7 +1,7 @@
 char arrays & strings class 2; strings - 1047,1910, 1209(hw), 
-680, 539(vimp), 647(VVVIMP), 2325(revise)
+680, 539(vimp), 647(VVVIMP), 2325(revise), 204
 
 
-git, guthub, JS, front end
+Rohan interview tips: git, guthub, JS, front end
 
 experience, skills, projects --> standout feature of resume
