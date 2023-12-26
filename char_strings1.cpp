@@ -21,7 +21,7 @@ bool checkPallindrome(char ch[], int n){
         l++;
     }
         else {  
-            return false;}
+            return false;} 
     }
     return true;
 }
