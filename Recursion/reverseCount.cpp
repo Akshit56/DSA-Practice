@@ -12,7 +12,7 @@ void reverseNumber(int n){
 
 int main(){
   int n;
-  cout<<"Enter a number";
+  cout<<"Enter a number : ";
   cin>>n;
   reverseNumber(n);
 
