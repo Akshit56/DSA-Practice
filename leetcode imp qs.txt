@@ -5,3 +5,5 @@ char arrays & strings class 2; strings - 1047,1910, 1209(hw),
 Rohan interview tips: git, guthub, JS, front end
 
 experience, skills, projects --> standout feature of resume
+
+204: prime nos usine sieve of eratosthenes
