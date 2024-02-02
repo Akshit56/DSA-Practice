@@ -18,13 +18,13 @@ int binSearch(int arr[], int size, int target, int start, int end)
   if (target < arr[mid])
   {
     end = mid - 1;
-    return binSearch(arr, size, target, start, end);
+    binSearch(arr, size, target, start, end);
   }
 
   if (target > arr[mid])
   {
     start = mid + 1;
-    return binSearch(arr, size, target, start, end);
+    binSearch(arr, size, target, start, end);
   }
 };
 
