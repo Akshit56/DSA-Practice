@@ -57,7 +57,7 @@ void deleteNode(Node *&head, Node *&tail, int position)
     tail = NULL;
   }
 
-  if (head == NU LL)
+  if (head == NULL)
   {
     cout << "not possible";
   }
