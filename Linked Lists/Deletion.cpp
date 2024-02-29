@@ -51,8 +51,13 @@ void printNode(Node *head)
 
 void deleteNode(Node *&head, Node *&tail, int position)
 {
+  if (head == tail)
+  {
+    head = NULL;
+    tail = NULL;
+  }
 
-  if (head == NULL)
+  if (head == NU LL)
   {
     cout << "not possible";
   }
