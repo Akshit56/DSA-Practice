@@ -41,7 +41,7 @@ void reverse(Node *&head)
   Node *curr = head;
   while (curr != NULL)
   {
-    Node *temp = curr->next;
+    Node *temp = curr->next; // cuz next line me curr ke aage ka data lost ho rha hai isliye save kar liya
     curr->next = prev;
     prev = curr;
     curr = temp;
