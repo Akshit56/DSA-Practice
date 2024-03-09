@@ -99,15 +99,19 @@ void levelOrderTraversal(Node *root)
       q.push(NULL);
     }
 
-    cout << front->data << " ";
+    else
+    {
 
-    if (front->left != NULL)
-    {
-      q.push(front->left);
-    }
-    if (front->right != NULL)
-    {
-      q.push(front->right);
+      cout << front->data << " ";
+
+      if (front->left != NULL)
+      {
+        q.push(front->left);
+      }
+      if (front->right != NULL)
+      {
+        q.push(front->right);
+      }
     }
   }
 }
