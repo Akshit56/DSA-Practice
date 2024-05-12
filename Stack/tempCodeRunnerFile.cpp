@@ -1,3 +1,4 @@
-s.push(30);
-  s.push(40);
-  s.push(50);
+for (int i = 0; i < str.size(); i++)
+  {
+    s.push(str[i]);
+  }
