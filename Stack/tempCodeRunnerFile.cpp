@@ -1,4 +1,5 @@
-for (int i = 0; i < str.size(); i++)
-  {
-    s.push(str[i]);
-  }
+while (!st.empty())
+  // {
+  //   cout << st.top() << " ";
+  //   st.pop();
+  // }
