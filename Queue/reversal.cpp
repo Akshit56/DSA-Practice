@@ -20,6 +20,20 @@ void reversal(queue<int> &q)
   }
 }
 
+void reverseUsingRecursion(queue<int> &q)
+{
+
+  if (q.empty())
+  {
+    return;
+  }
+
+  int element = q.front();
+  q.pop();
+  reverseUsingRecursion(q);
+  q.push(element);
+}
+
 int main()
 {
   queue<int> q;
@@ -29,7 +43,7 @@ int main()
   q.push(40);
   q.push(50);
   q.push(60);
-  reversal(q);
+  reverseUsingRecursion(q);
   while (!q.empty())
   {
     int front = q.front();
