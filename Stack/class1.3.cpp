@@ -7,7 +7,6 @@ void insertAtLast(stack<int> &st, int element)
   if (st.empty())
   {
     st.push(element);
-    return;
   }
   int top = st.top();
   st.pop();
