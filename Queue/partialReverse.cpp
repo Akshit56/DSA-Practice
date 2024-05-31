@@ -17,6 +17,11 @@ int main()
   q.push(50);
   // q.push(60);
 
+  if (k > q.size() || k == 0)
+  {
+    cout << "Invalid";
+  }
+
   for (int i = 0; i < k; i++)
   {
     int temp = q.front();
