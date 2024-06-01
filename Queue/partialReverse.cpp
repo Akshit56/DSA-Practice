@@ -1,3 +1,5 @@
+// O(n)
+
 #include <iostream>
 #include <queue>
 #include <stack>
