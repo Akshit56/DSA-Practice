@@ -13,21 +13,25 @@ void printFirstNonRepeatingChar(string &str, queue<char> &q, int *freq)
   while (!q.empty())
   {
     char temp = q.front();
-    if (freq[temp - 'a'] > 1)
+    if (freq[temp - 'a'] == 1)
     {
-      q.pop();
+      cout << temp;
+      break;
     }
     else
     {
-      cout << temp << "->";
-      break;
+      q.pop();
+    }
+    if (q.empty())
+    {
+      cout << "No non-repeating character found";
     }
   }
 }
 
 int main()
 {
-  string str = "facfdcad";
+  string str = "facfdca";
   queue<char> q;
   int freq[26] = {0};
   printFirstNonRepeatingChar(str, q, freq);
