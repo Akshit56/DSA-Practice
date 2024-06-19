@@ -1,6 +1,7 @@
 // Make a tree from preorder and inorder traversal given to you{adobe q}
 
 #include <iostream>
+#include <queue>
 using namespace std;
 
 class Node
