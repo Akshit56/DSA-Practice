@@ -1,3 +1,5 @@
+// determine if there exists two elements whose sum is equal to a given number
+
 #include <vector>
 #include <algorithm>
 #include <iostream>
