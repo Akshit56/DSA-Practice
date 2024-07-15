@@ -8,7 +8,7 @@ void moveNegative(int *a, int n)
 {
   int l = 0;
   int h = n - 1;
-  while (l < h)
+  while (l <= h)
   {
     if (a[l] < 0)
     {
