@@ -44,7 +44,7 @@ void preOrderTraversal(Node *root)
   {
     return;
   }
-
+  // TC of all 3 is O(n)
   // NLR
   // 1.N
   cout << root->data << " ";
